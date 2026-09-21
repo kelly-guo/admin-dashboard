@@ -3,11 +3,15 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
+    min-height: 100vh;
 }
 
 .sidebar {
     grid-column-start: 1;
-    margin: 0.5em;
+    padding: 22px;
+    background-color: rgb(84, 181, 246);
+    color: white;
+    grid-row: span 4;
 }
 
 .main-content {
