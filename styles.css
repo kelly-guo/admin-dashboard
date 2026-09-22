@@ -4,6 +4,7 @@
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
     min-height: 100vh;
+    min-width: 100vh;
 }
 
 .sidebar {
@@ -21,10 +22,44 @@
 
 }
 
+#new {
+    grid-column-start: 3;
+}
+
+#upload {
+    grid-column: 4;
+}
+
+#share {
+    grid-column: 5;
+}
+
 .header {
     grid-row-start: 1;
     grid-column-start: 2;
     grid-column-end: 4;
+    display: grid;
+    grid-template-rows: 40px 40px;
+    grid-template-columns: 10vh 60vh 10vh 10vh 10vh;
+    gap: 10px;
+}
+
+.greet {
+    grid-column-start: 2;
+    grid-row: 2;
+}
+
+.pfp {
+    grid-column-start: 1;
+    grid-row: 2;
+}
+
+.header-button {
+    grid-row-start: 2;
+    background-color: rgb(84, 181, 246);
+    border-radius: 2em;
+    color: white;
+    border: none;
 }
 
 .side-list {
