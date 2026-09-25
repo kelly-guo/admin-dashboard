@@ -86,18 +86,55 @@ body {
     grid-column-end: 4;
     display: grid;
     grid-template-rows: 25px 40px;
-    grid-template-columns: 10vh 60vh 10vh 10vh 10vh;
+    grid-template-columns: 10vh 60vh 15vh 15vh 15vh;
     gap: 10px;
+    background-color: white;
+    min-width: 100vw;
 }
 
 .greet {
     grid-column-start: 2;
     grid-row: 2;
+    margin: 10px;
 }
 
 .pfp {
     grid-column-start: 1;
     grid-row: 2;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+.pfp2 {
+
+    grid-column-start: 4;
+    grid-row: 1;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin-top: 5px;
+
+}
+
+.pfp2 img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.pfp img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%
+}
+
+.small-name {
+    grid-column: 5;
 }
 
 .header-button {
