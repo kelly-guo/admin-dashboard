@@ -46,8 +46,9 @@ body {
     grid-row-start: 2;
     grid-row-end: 4;
     display: grid;
-    grid-template-columns: 40vh 40vh 20vh;
-    grid-template-rows: 10vh 30vh 30vh 30vh;
+    grid-template-columns: 50vh 50vh;
+    grid-auto-rows: 30vh;
+    grid-template-rows: 30px;
 
 }
 
@@ -61,6 +62,7 @@ body {
 .projects {
     grid-row-start: 1;
     grid-column: span 3;
+    margin: 10px;
 }
 
 .trending {
@@ -90,6 +92,7 @@ body {
     gap: 10px;
     background-color: white;
     min-width: 100vw;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .greet {
@@ -106,6 +109,7 @@ body {
     height: 50px;
     overflow: hidden;
     margin: 10px;
+    margin-left: 20px;
 }
 
 
@@ -158,5 +162,18 @@ body {
     grid-template-columns: 1em;
     gap: 10px;
     margin: 1em;
+
+}
+
+.project-card {
+
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    border-left: 6px solid #ffbb47; 
+    
 
 }
